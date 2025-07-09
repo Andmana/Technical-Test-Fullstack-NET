@@ -281,3 +281,5 @@ obj/
 /wwwroot/node_modules
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore
+NET_API/obj/Debug/net8.0
+NET_API/Uploads
