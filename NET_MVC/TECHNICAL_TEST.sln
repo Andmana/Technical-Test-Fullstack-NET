@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET_MVC", "NET_MVC.csproj", "{BD5BAF7D-953F-41ED-8D9C-CD65CB883DB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET_Models", "..\NET_Models\NET_Models.csproj", "{7DAAC17D-45BE-418D-A0AA-5876878BB847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET_API", "..\NET_API\NET_API.csproj", "{EBA75654-8A7E-4F66-838E-A0A0A34EE2F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BD5BAF7D-953F-41ED-8D9C-CD65CB883DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD5BAF7D-953F-41ED-8D9C-CD65CB883DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD5BAF7D-953F-41ED-8D9C-CD65CB883DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAAC17D-45BE-418D-A0AA-5876878BB847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAAC17D-45BE-418D-A0AA-5876878BB847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAAC17D-45BE-418D-A0AA-5876878BB847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAAC17D-45BE-418D-A0AA-5876878BB847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA75654-8A7E-4F66-838E-A0A0A34EE2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA75654-8A7E-4F66-838E-A0A0A34EE2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA75654-8A7E-4F66-838E-A0A0A34EE2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA75654-8A7E-4F66-838E-A0A0A34EE2F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
