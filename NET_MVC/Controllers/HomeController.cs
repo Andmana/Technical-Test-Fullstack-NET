@@ -15,7 +15,7 @@ namespace NET_MVC.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return PartialView();
         }
 
         public IActionResult Privacy()

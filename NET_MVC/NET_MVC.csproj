@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -12,6 +12,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\digify\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NET_Models\NET_Models.csproj" />
   </ItemGroup>
 
 </Project>
