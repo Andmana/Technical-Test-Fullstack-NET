@@ -24,7 +24,6 @@ namespace NET_Models
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Phone number is required.")]
-        [Phone(ErrorMessage = "Invalid phone number format.")]
         public string PhoneNumber { get; set; }
 
         [Required(ErrorMessage = "NPWP document is required.")]

@@ -31,7 +31,7 @@ namespace NET_API.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, new
                 {
                     message = "An error occurred while retrieving companies.",
-                    error = ex.Message
+                    errors = ex.Message
                 });
 
             }
@@ -64,12 +64,12 @@ namespace NET_API.Controllers
                 await db.AddAsync(newEntity);
                 await db.SaveChangesAsync();
 
-                return Ok(newEntity);
+                return Ok( new { message = "Registration success", data = newEntity });
             }
             catch (Exception ex) {
                 return StatusCode(StatusCodes.Status500InternalServerError, new
                 {
-                    message = "An error occurred while retrieving companies.",
+                    message = "An error occurred while saving record.",
                     error = ex.Message
                 });
             }
